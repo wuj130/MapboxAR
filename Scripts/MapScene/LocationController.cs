@@ -5,12 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LocationController : MonoBehaviour
 {
-    public GameObject[] Pokemons;
-    public string[] GPSLocations;
     public Transform Trainer;
-    public GameObject[] ARLocations;
-    public Vector3[] gamePositions;
-    public Transform Map;
+    // public Transform Map;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +18,6 @@ public class LocationController : MonoBehaviour
     void Update()
     {
         var ARTriggers = GameObject.FindGameObjectsWithTag("randomCharizard");
-        print(ARTriggers);
-        // var ARTriggers = GameObject.FindWithTag("randomCharizard");  //change this to list of possible GameObjects
 
         foreach (var ARTrigger in ARTriggers)
         {
