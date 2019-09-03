@@ -7,7 +7,7 @@ public class ButtonControl : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("Location-basedGame");
+        SceneManager.LoadScene("ZoomableMap");
     }
     
 }

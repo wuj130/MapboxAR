@@ -212,6 +212,12 @@ Transform:
   m_Father: {fileID: 585763544}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+--- !u!4 &78708006 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4310658642812482, guid: 35ce2bb4caba9434db5e656796b632b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 843921207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &137357532
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +661,7 @@ PrefabInstance:
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coreOptions.isActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
@@ -1088,12 +1094,8 @@ MonoBehaviour:
   Pokemons:
   - {fileID: 8767366176712751315, guid: aafe968aad2524107b0e20d338036a8d, type: 3}
   - {fileID: 5396030892492134777, guid: de63f797a45864a769458414f1c09d40, type: 3}
-  GPSLocations:
-  - 37.65770, -122.37988
   Trainer: {fileID: 585763544}
-  ARLocations: []
-  gamePositions: []
-  Map: {fileID: 0}
+  Map: {fileID: 78708006}
 --- !u!4 &1765588874
 Transform:
   m_ObjectHideFlags: 0
