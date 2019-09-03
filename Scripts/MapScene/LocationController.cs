@@ -7,7 +7,10 @@ public class LocationController : MonoBehaviour
 {
     public Transform Trainer;
 <<<<<<< HEAD:Scripts/MapScene/LocationController.cs
+<<<<<<< HEAD:Scripts/MapScene/LocationController.cs
     public Transform Map;
+=======
+>>>>>>> parent of 8b06867... merge fix:Scripts/MapScene/LocationController.cs
 =======
 >>>>>>> parent of 8b06867... merge fix:Scripts/MapScene/LocationController.cs
 
@@ -21,7 +24,11 @@ public class LocationController : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD:Scripts/MapScene/LocationController.cs
+<<<<<<< HEAD:Scripts/MapScene/LocationController.cs
         var ARTriggers = GameObject.FindGameObjectsWithTag("randomCharizard");
+=======
+        var ARTriggers = GameObject.FindGameObjectsWithTag("randomBigCharizard");
+>>>>>>> parent of 8b06867... merge fix:Scripts/MapScene/LocationController.cs
 =======
         var ARTriggers = GameObject.FindGameObjectsWithTag("randomBigCharizard");
 >>>>>>> parent of 8b06867... merge fix:Scripts/MapScene/LocationController.cs
