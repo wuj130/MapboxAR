@@ -3,6 +3,7 @@
 	using UnityEngine;
 	using Mapbox.Utils;
 	using Mapbox.Unity.Map;
+	using UnityEngine.SceneManagement;
 	using Mapbox.Unity.MeshGeneration.Factories;
 	using Mapbox.Unity.Utilities;
 	using System.Collections.Generic;
@@ -24,6 +25,7 @@
 		GameObject _markerPrefab;
 
 		List<GameObject> _spawnedObjects;
+		// public Transform Trainer;
 
 		void Start()
 		{
@@ -49,6 +51,12 @@
 				var location = _locations[i];
 				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
 				spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+				
+				// float distance = Vector3.Distance(spawnedObject.transform.position, Trainer.position);
+        		// if (distance <= 5f)
+        		// {
+            	// 	SceneManager.LoadScene("TriggeredARScene");
+        		// }
 			}
 		}
 	}

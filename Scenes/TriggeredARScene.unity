@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248714379}
   m_Layer: 0
-  m_Name: AR Object
+  m_Name: EnemyPokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
